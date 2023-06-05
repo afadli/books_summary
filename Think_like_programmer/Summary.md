@@ -26,7 +26,7 @@ Write a programm that prints half 5x5 grid as follow
 #
 ```
 
-- First reduce the problem:
+- First: reduce the problem.
   Print 5x5 hashes:
   ```
   #####
@@ -35,4 +35,14 @@ Write a programm that prints half 5x5 grid as follow
   #####
   #####
   ```
+- Second: Find an expression 
+  | row   | desired value | row * -1 | 
+  | :----:|   :----:      | :----:   |
+  |  1    |   5           |    -1    |
+  |  2    |   4           |    -2    |
+  |  3    |   3           |    -3    |
+  |  4    |   2           |    -4    |
+  |  5    |   1           |    -5    |
+
+- Third: 
   
